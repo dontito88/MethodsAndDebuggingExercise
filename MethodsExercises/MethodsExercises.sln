@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\Hell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxMethod", "MaxMethod\MaxMethod.csproj", "{31360385-041B-492E-8BF0-1413020E9A22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishNameOfLastDigit", "EnglishNameOfLastDigit\EnglishNameOfLastDigit.csproj", "{69925D61-2CB5-4786-BAD5-0F7636387581}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{31360385-041B-492E-8BF0-1413020E9A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31360385-041B-492E-8BF0-1413020E9A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31360385-041B-492E-8BF0-1413020E9A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69925D61-2CB5-4786-BAD5-0F7636387581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69925D61-2CB5-4786-BAD5-0F7636387581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69925D61-2CB5-4786-BAD5-0F7636387581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69925D61-2CB5-4786-BAD5-0F7636387581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
