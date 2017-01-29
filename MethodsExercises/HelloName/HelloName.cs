@@ -7,7 +7,7 @@
         public static void Main()
         {
             var input = Console.ReadLine();
-            Console.WriteLine($"Hello, {PrintName(input)}");
+            Console.WriteLine($"Hello, {PrintName(input)}!");
         }
 
         private static string PrintName(string name)
