@@ -1,0 +1,56 @@
+namespace CubeProperties
+{
+    using System;
+
+    public class CubeProperties
+    {
+        public static void Main()
+        {
+            var side = int.parse(Console.ReadLine());
+            string cubeParameter = Console.ReadLine();
+            cubeParameter = cubeParameter.toLower();
+            
+            if(cubeParameter == "face")
+            {
+                ConsoleWriteLine(CubeFace(side));
+            }
+            else if(cubeParameter == "space")
+            {
+                ConsoleWriteLine(CubeSpace(side));
+            }
+            else if(cubeParameter == "volume")
+            {
+                ConsoleWriteLine(CubeVolume(side));
+            }
+            else if(cubeParameter == "area")
+            {
+                ConsoleWriteLine(CubeArea(side));
+            }
+            
+        }
+
+        private static double CubeFace(double side)
+        {
+            var faceDiagonal = Math.Sqrt(2 * Math.Pow(side, 2));
+            return faceDiagonal;
+        }
+        
+        private static double CubeSpace(double side)
+        {
+            var spaceDiagonal = Math.Sqrt(3 * Math.Pow(side, 2));
+            return spaceDiagonal;
+        }
+        
+        private static double CubeVolumme(double side)
+        {
+            var cubeVolme = Math.Pow(side, 3);
+            reaturn cubeVolume;
+        }
+        
+        private static double CubeArea(double side)
+        {
+            var cubeArea = 6 * (Math.Pow(side, 2));
+            return cubeArea;
+        }
+    }
+}
