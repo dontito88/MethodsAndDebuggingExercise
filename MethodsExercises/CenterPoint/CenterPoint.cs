@@ -10,10 +10,14 @@
             var y1 = int.Parse(Console.ReadLine());
             var x2 = int.Parse(Console.ReadLine());
             var y2 = int.Parse(Console.ReadLine());
-
-            if (x1 < x2 && y1 < y2)
+ 
+            if(Math.Abs(x1) < Math.Abs(x2) && Math.Abs(y1) < Math.Abs(y2))
             {
-                Console.WriteLine($"({}");
+                Console.WriteLine($"({x1}, {y1})");
+            }
+            else
+            {
+                Console.WriteLine($"({x2}, {y2})");
             }
         }
     }
